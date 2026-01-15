@@ -39,12 +39,6 @@ int descobrirAno(int idadeParaDescobrirAno = 10) {
     return anoNasceu;
 }
 
-int anosTeria (int anoDesejado, int idadeAnoDesejado) {
-   int idadeAnoDesejado
-
-    ano
-}
-
 int main() {
     //cout << grauIdade(1231213);
     char op = '0';
@@ -73,7 +67,8 @@ int main() {
         case '2':
             cout << "Quantos anos voce tem? ";
             cin >> idadeX;
-            cout << "\n\nSe nasceu entre o dia 1.janeiro e 11-dezembro nasceu no ano " << descobrirAno(idadeX) << "\nSe nasceu entre o dia 12-dezembro e 31-dezembro nasceu no ano " << descobrirAno(idadeX - 1);
+            cout << "\n\nSe nasceu entre o dia 1.1 e " << diaAtual << "." << mesAtual << " nasceu no ano " << descobrirAno(idadeX);
+            cout << "\nSe nasceu entre o dia " << diaAtual << "-" << mesAtual << " e 31-12 nasceu no ano " << descobrirAno(idadeX - 1);
             break;
 
         case '3':

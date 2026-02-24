@@ -4,14 +4,15 @@ using namespace std;
 
 int main() {
 
-    ofstream MyFile("dados.txt");
-
+    string linha_aluno;
+    const int ALUNOS = 10;
     string nome;
     string idade;
     string numero;
-    string linha_aluno;
-    const int ALUNOS = 10;
-    string num_registros[ALUNOS];
+    string num_registros;
+
+/*
+    ofstream MyFile("dados.txt");
 
     for (int i = 0; i < ALUNOS; i++) {
 
@@ -33,21 +34,31 @@ int main() {
     }
 
     MyFile.close();
+*/
 
     string myText;
     ifstream MyReadFile("dados.txt");
     int j = 1;
+    int coluna = 1;
     cout << "------- REGISTROS -------\n\n";
     while(getline(MyReadFile, myText)) {
         //cout << myText << "\n";
         cout << "\n------ ALUNO " << j << " ------\n\n";
         for (int i = 0; i < myText.length(); i++) {
             if (myText[i] != ';') {
-                cout << myText[i];
+                // cout << myText[i];
+                if(coluna == 1) numero += myText[i];
+                if(coluna == 2) nome += myText[i];
+                if(coluna == 3) idade += myText[i];
             } else {
-                cout << "\n";
+                // cout << "\n";
+                coluna++;
             }
+
         }
+        cout << numero << "\n";
+        cout << nome << "\n";
+        cout << idade << "\n";
         cout << "\n";
         j++;
     }

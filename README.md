@@ -1,83 +1,39 @@
-# 📌 Cpp – Exercícios e Práticas em C++
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B2447,100:4F7CAC&height=140&section=header&text=C%2B%2B&fontSize=48&fontColor=ffffff&fontAlignY=50" width="100%" alt="C++" />
+</div>
 
-Este repositório contém uma coleção de pequenos programas desenvolvidos em **C++** com o objetivo de praticar conceitos fundamentais da linguagem.
+<div align="center">
+  <img src="https://img.shields.io/badge/-C++-0B2447?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/-CODE::BLOCKS-4F7CAC?style=for-the-badge&logo=codeblocks&logoColor=white" alt="Code::Blocks" />
+  <img src="https://img.shields.io/badge/-VS%20CODE-0B2447?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+</div>
 
-Cada ficheiro representa um programa independente focado em lógica de programação, estruturas de controlo, arrays, ponteiros, manipulação de ficheiros, recursividade e pequenos projetos práticos.
+<br>
 
----
+## About
 
-# 📂 Descrição dos Ficheiros
+C++ was my first programming language. This repository documents my learning path with it, from the first variables to object-oriented programming and the standard library.
 
-## 🎮 Exercícios e Projetos
+## Concepts covered
 
-- **Ex_Tabuleiro.cpp** – Implementação de um tabuleiro (matriz/grid) para manipulação de posições.
-- **ExercicioTabuleiro.cpp** – Versão alternativa de exercício envolvendo lógica de tabuleiro.
-- **PedraPapelTesoura.cpp** – Implementação do jogo clássico Pedra, Papel e Tesoura.
-- **RPG_casa.cpp** – Exemplo simples de jogo estilo RPG com interação em ambiente/casa.
-- **labirinto.cpp** – Exercício de lógica para percorrer ou resolver um labirinto.
+| Area | Topics |
+|:--|:--|
+| **Fundamentals** | Variables and data types |
+| **Data handling** | Arrays, vectors, structs |
+| **Object-oriented programming** | Classes, OOP principles |
+| **Problem solving** | Recursion |
+| **Standard library** | STL |
 
----
+## Tools
 
-## 📊 Cálculos e Matemática
+- **Code::Blocks** and **Visual Studio Code**
 
-- **calculoarea.cpp** – Calcula a área de figuras geométricas.
-- **calculoidademeses.cpp** – Converte idade em anos para meses.
-- **calculos_bases.cpp** – Realiza cálculos matemáticos básicos.
-- **media3nums.cpp** – Calcula a média de três números.
-- **tabuada.cpp** – Gera a tabuada de multiplicação.
-- **imparOupar.cpp** – Verifica se um número é par ou ímpar.
-- **meurendimento.cpp** – Calcula rendimento (académico ou financeiro).
+## What I learned along the way
 
----
-
-## 📚 Gestão de Dados
-
-- **baseDeDadosAlunos.cpp** – Simula uma base de dados simples de alunos.
-- **gestao_alunos.cpp** – Programa para gestão de alunos (cadastro, consulta, etc.).
-- **files.cpp** – Manipulação de ficheiros (leitura e escrita).
+The hardest part was at the beginning. The syntax was not the problem; the real challenge was learning to think through the logic of a problem and break it into steps a program can follow. That way of thinking is what stayed with me, and it carried over to every language I've learned since.
 
 ---
 
-## 🔁 Estruturas de Controlo
-
-- **do_while.cpp** – Exemplo de utilização da estrutura `do...while`.
-- **for_each.cpp** – Demonstração de iteração usando `for-each`.
-- **recursividade.cpp** – Exemplo de função recursiva.
-
----
-
-## 🧠 Arrays e Ponteiros
-
-- **array.cpp** – Introdução ao uso de arrays (vetores).
-- **arrayMultidimensional.cpp** – Uso de arrays multidimensionais (matrizes).
-- **pointers_intro.cpp** – Introdução a ponteiros.
-- **pointers.cpp** – Exemplos práticos de ponteiros.
-- **pointers_cont.cpp** – Continuação de exercícios com ponteiros.
-- **inversao_pointers.cpp** – Inversão de valores utilizando ponteiros.
-- **inverter.cpp** – Inversão de valores ou strings.
-
----
-
-## 🧪 Outros Exercícios
-
-- **argumentos.cpp** – Uso de argumentos de linha de comando (`argc` e `argv`).
-- **intro.cpp** – Programa introdutório em C++.
-- **ordenar.cpp** – Implementação de algoritmo de ordenação.
-- **Faixa_etaria.cpp** – Classificação de faixa etária com base na idade.
-- **revisaoCerta.cpp** – Exercício de revisão geral.
-- **Untitled1.cpp** – Arquivo de teste ou exemplo ainda em desenvolvimento.
-
----
-
-# 🚀 Como Compilar
-
-```bash
-g++ nome_do_ficheiro.cpp -o programa
-./programa
-```
-
----
-
-# 🎯 Objetivo
-
-Este repositório foi criado para praticar e consolidar conhecimentos em **C++**, servindo como material de apoio para estudo e revisão da linguagem.
+<p align="center">
+  <a href="https://github.com/Po7tugal">Back to my profile</a>
+</p>
